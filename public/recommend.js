@@ -40,10 +40,8 @@ document.getElementById('myform').addEventListener('submit',function(event){
 
             
         }
-        var li = document.createElement("li");
-        for (var i=0; i<arr.length; i++) ul.removeChild('li');
-
-        console.log("for loop ended");
+       
+        
          
     }).catch((err)=>{
          console.log(err);
